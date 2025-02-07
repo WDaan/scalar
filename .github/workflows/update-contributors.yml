@@ -1,9 +1,9 @@
 name: Update Contributors in README
 
 on:
-  schedule:
+  # schedule:
     # Run every Friday at 15:00 UTC
-    - cron: '0 15 * * 5'
+    # - cron: '0 15 * * 5'
 
 jobs:
   update-readme:

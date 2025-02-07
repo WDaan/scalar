@@ -1,9 +1,9 @@
 name: Test CDN Build (jsdelivr)
 
 on:
-  schedule:
+  # schedule:
     # every hour
-    - cron: '0 * * * *'
+    # - cron: '0 * * * *'
   pull_request:
     paths:
       - 'playwright/tests/**'
