@@ -1,6 +1,7 @@
 name: Update Contributors in README
 
 on:
+  workflow_dispatch:
   # schedule:
     # Run every Friday at 15:00 UTC
     # - cron: '0 15 * * 5'
